@@ -50,3 +50,16 @@ number_of_philosophers time_to_die time_to_eat time_to_sleep
 Логи не должны перемешиваться между собой
 
 Каждый философ должен быть потоком. Для избежания состояния гонки данных используются мьютексы
+
+Примеры отработки программы:
+
+number_of_philosophers = 4,  time_to_die = 100,  time_to_eat = 50,  time_to_sleep = 40, 
+[number_of_times_each_philosopher_must_eat] = 1
+
+<img width="387" alt="Снимок экрана 2022-10-09 в 3 20 11 PM" src="https://user-images.githubusercontent.com/106535499/194756516-92de75a2-b2a4-4dec-b6c6-da536ad6dd2b.png">
+
+number_of_philosophers = 1,  time_to_die = 100,  time_to_eat = 50,  time_to_sleep = 40, 
+[number_of_times_each_philosopher_must_eat] = 1
+
+<img width="382" alt="Снимок экрана 2022-10-09 в 3 20 47 PM" src="https://user-images.githubusercontent.com/106535499/194756534-bdb29542-ee36-41b1-b2a0-e9568c3f8b42.png">
+
